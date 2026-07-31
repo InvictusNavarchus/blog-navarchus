@@ -16,12 +16,6 @@
 			"bucket_name": "blog-navarchus-emdash-prod","preview_bucket_name": "blog-navarchus-emdash-prod",
 		},
 	],
-	// Worker Loader for plugin sandboxing
-	"worker_loaders": [
-		{
-			"binding": "LOADER",
-		},
-	],
 	// Drives scheduled publishing, plugin cron, and maintenance (see src/worker.ts)
 	"triggers": {
 		"crons": ["* * * * *"],
