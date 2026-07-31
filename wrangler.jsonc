@@ -16,6 +16,12 @@
 			"bucket_name": "blog-navarchus-emdash-prod","preview_bucket_name": "blog-navarchus-emdash-prod",
 		},
 	],
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "83b47afd4b344dbabe2a08326e0d234f",
+		},
+	],
 	// Drives scheduled publishing, plugin cron, and maintenance (see src/worker.ts)
 	"triggers": {
 		"crons": ["* * * * *"],
