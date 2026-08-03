@@ -163,7 +163,7 @@ const isLoggedIn = !!Astro.locals.user;
 							{
 								pages.slice(0, 3).map((page) => (
 									<li>
-										<a href={`/pages/${page.data.slug || page.id}`}>
+										<a href={`/${page.data.slug || page.id}`}>
 											{page.data.title}
 										</a>
 									</li>
@@ -902,7 +902,7 @@ const isLoggedIn = !!Astro.locals.user;
 		class="statcounter"
 		src="https://c.statcounter.com/13339306/0/61f58da4/1/"
 		alt="Web Analytics"
-		referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+		referrerpolicy="no-referrer-when-downgrade"></a></div></noscript>
 		<!-- End of Statcounter Code -->
 	</body>
 </html>
